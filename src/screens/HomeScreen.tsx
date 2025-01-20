@@ -1,6 +1,5 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
-import { router } from 'expo-router';
 
 interface TopicItem {
   id: string;
@@ -21,9 +20,10 @@ const topics: TopicItem[] = [
   },
 ];
 
-export default function HomeScreen() {
+export const HomeScreen = () => {
   const handleTopicSelect = (topicId: string) => {
-    router.push(`/topic/${topicId}`);
+    // Navigation will be implemented later
+    console.log(`Selected topic: ${topicId}`);
   };
 
   return (
@@ -45,7 +45,7 @@ export default function HomeScreen() {
       </View>
     </ScrollView>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -91,4 +91,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#666',
   },
-});
+}); 

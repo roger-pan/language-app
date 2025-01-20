@@ -1,7 +1,9 @@
 # Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
 
-# dependencies
+# Dependencies
 node_modules/
+.pnp
+.pnp.js
 
 # Expo
 .expo/
@@ -30,9 +32,34 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
+.env.development
+.env.test
+.env.production
 
 # typescript
 *.tsbuildinfo
 
-app-example
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Build files
+build/
+*.apk
+*.aab
+*.ipa
+
+# Testing
+coverage/
+
+# Expo Go
+app-example/

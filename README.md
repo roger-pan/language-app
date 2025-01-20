@@ -1,50 +1,20 @@
-# Welcome to your Expo app 👋
+# Spanish Learning App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An interactive Spanish learning app that encourages active learning through sentence creation.
 
-## Get started
+## Features
+- User can pick different topics to learn and practise Spanish vocabulary and grammar (e.g. past tense verbs, indirect object pronouns)
+- For each topic, users will be given an example to improve understanding
+- They will then be given a prompt, where they can create their own sentence (via text input)to utilise the concept.
+- There will be an integration with an LLM in order to check the response and correct any mistakes
 
-1. Install dependencies
+## Screens
+- Homescreen, where user can pick a topic to learn
+- Topic screen, where user can see an example to understand the concept, and be given a prompt to create their own sentence
+- Feedback screen, where user can see the feedback from the LLM
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Tech Stack
+- React Native
+- Expo
+- Typescript
+- Firebase
