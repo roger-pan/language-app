@@ -33,6 +33,34 @@ const topicContents: Record<string, TopicContent> = {
         prompt: '¿Qué hacías cuando eras niño?',
         hint: 'Use the imperfect tense to describe what you used to do as a child',
       },
+      {
+        prompt: '¿Dónde estuviste de vacaciones el año pasado?',
+        hint: 'Use the preterite tense with location and time expressions',
+      },
+      {
+        prompt: '¿Has visitado algún país extranjero? ¿Cuándo fue?',
+        hint: 'Combine present perfect and preterite to talk about past experiences',
+      },
+      {
+        prompt: '¿Qué estabas haciendo cuando te llamé ayer?',
+        hint: 'Use the past progressive to describe an ongoing action',
+      },
+      {
+        prompt: '¿Cómo celebraste tu último cumpleaños?',
+        hint: 'Use the preterite to describe a completed event',
+      },
+      {
+        prompt: '¿Qué habías estudiado antes de aprender español?',
+        hint: 'Use the past perfect to describe actions before another past event',
+      },
+      {
+        prompt: '¿Cuál fue el mejor regalo que has recibido?',
+        hint: 'Combine preterite and present perfect to describe past experiences',
+      },
+      {
+        prompt: '¿Qué solías hacer los veranos cuando eras pequeño?',
+        hint: 'Use imperfect tense with "solía" to describe habitual past actions',
+      }
     ],
   },
   'object-pronouns': {
@@ -51,6 +79,171 @@ const topicContents: Record<string, TopicContent> = {
         prompt: '¿Se lo explicaste a tus amigos?',
         hint: 'Practice using multiple object pronouns (se, lo) in your answer',
       },
+      {
+        prompt: '¿Cuándo vas a devolverme el libro?',
+        hint: 'Use the indirect object pronoun (me) with a future action',
+      },
+      {
+        prompt: '¿Les has enviado el correo a tus colegas?',
+        hint: 'Use indirect object pronouns (les) with present perfect',
+      },
+      {
+        prompt: '¿Te lo puedo prestar mañana?',
+        hint: 'Practice using both direct (lo) and indirect (te) object pronouns',
+      },
+      {
+        prompt: '¿Nos puede traer la cuenta, por favor?',
+        hint: 'Use indirect object pronouns (nos) in a polite request',
+      },
+      {
+        prompt: '¿Se la vas a comprar a tu hermana?',
+        hint: 'Use multiple pronouns (se, la) with a future expression',
+      },
+      {
+        prompt: '¿Quién te lo dijo?',
+        hint: 'Use both direct (lo) and indirect (te) pronouns in a question',
+      },
+      {
+        prompt: '¿Por qué no me lo dijiste antes?',
+        hint: 'Use both pronouns (me, lo) in a question about the past',
+      }
+    ],
+  },
+  'weather-expressions': {
+    id: 'weather-expressions',
+    title: 'Weather Expressions',
+    prompts: [
+      {
+        prompt: '¿Qué tiempo hace en tu ciudad hoy?',
+        hint: 'Use "Hace" and "Estamos a" to describe the weather',
+      },
+      {
+        prompt: '¿Prefieres el clima cálido o frío? ¿Por qué?',
+        hint: 'Use weather expressions and explain your preferences',
+      },
+      {
+        prompt: '¿Qué tipo de clima prefieres para ir de vacaciones?',
+        hint: 'Describe your ideal vacation weather using weather expressions',
+      },
+      {
+        prompt: '¿Cómo está el clima durante el invierno en tu país?',
+        hint: 'Use expressions like "hace frío", "nieva", "llueve"',
+      },
+      {
+        prompt: '¿Qué actividades disfrutas hacer cuando hace buen tiempo?',
+        hint: 'Connect activities with weather conditions',
+      },
+      {
+        prompt: '¿Qué tipo de ropa sueles llevar cuando hace mucho viento?',
+        hint: 'Use clothing vocabulary and weather expressions',
+      },
+      {
+        prompt: '¿Te gusta que haga sol o prefieres un día nublado?',
+        hint: 'Express preferences using weather terms',
+      },
+      {
+        prompt: '¿Cómo está el clima en verano en tu ciudad? ¿Hace mucho calor?',
+        hint: 'Describe summer weather using appropriate expressions',
+      },
+      {
+        prompt: '¿Cómo cambia el clima en tu ciudad entre primavera y otoño?',
+        hint: 'Compare seasons using weather expressions',
+      },
+      {
+        prompt: '¿Qué harías si estuviera lloviendo ahora mismo?',
+        hint: 'Use conditional tense with weather expressions',
+      },
+    ],
+  },
+  'useful-connectors': {
+    id: 'useful-connectors',
+    title: 'Useful Connectors',
+    prompts: [
+      {
+        prompt: 'Según tu opinión, ¿cuál es el mejor sistema educativo?',
+        hint: 'Start with "Según mi opinión..." and use connectors to organize your ideas',
+      },
+      {
+        prompt: 'En primer lugar, ¿por qué decidiste aprender español?',
+        hint: 'Use sequence connectors like "en primer lugar", "además", "finalmente"',
+      },
+      {
+        prompt: 'Sin embargo, ¿qué desventajas encuentras en trabajar desde casa?',
+        hint: 'Use contrasting connectors like "sin embargo", "pero", "aunque"',
+      },
+      {
+        prompt: 'Por último, ¿qué consejo le darías a alguien que está aprendiendo español?',
+        hint: 'Use conclusion connectors like "por último", "en conclusión"',
+      },
+      {
+        prompt: 'Desde mi punto de vista, ¿qué es lo más importante para tener una vida equilibrada?',
+        hint: 'Use opinion connectors and supporting arguments',
+      },
+      {
+        prompt: 'Para empezar, ¿cómo te sentirías si cambiaras de ciudad?',
+        hint: 'Use sequence connectors to organize your thoughts',
+      },
+      {
+        prompt: 'En conclusión, ¿cómo crees que podemos reducir la contaminación?',
+        hint: 'Use conclusion connectors to summarize your ideas',
+      },
+      {
+        prompt: 'Por otro lado, ¿qué ventajas encuentras en vivir en una ciudad grande?',
+        hint: 'Use contrasting connectors to present different viewpoints',
+      },
+      {
+        prompt: '¿Cómo describirías tu experiencia aprendiendo español hasta ahora?',
+        hint: 'Use time connectors and opinion expressions',
+      },
+      {
+        prompt: 'A pesar de todo, ¿seguirías eligiendo el mismo trabajo que tienes hoy?',
+        hint: 'Use concessive connectors like "a pesar de", "aunque"',
+      },
+    ],
+  },
+  'irregular-past': {
+    id: 'irregular-past',
+    title: 'Irregular Past Tense Verbs',
+    prompts: [
+      {
+        prompt: '¿Qué hiciste el fin de semana pasado?',
+        hint: 'Use "hacer" in the preterite tense',
+      },
+      {
+        prompt: '¿Cómo fue tu experiencia la última vez que tuviste que viajar?',
+        hint: 'Use "tener" and "ser" in the preterite tense',
+      },
+      // ... add remaining irregular past prompts ...
+    ],
+  },
+  'future-tense': {
+    id: 'future-tense',
+    title: 'Future Tense',
+    prompts: [
+      {
+        prompt: '¿Qué harás el próximo fin de semana?',
+        hint: 'Use the future tense to describe your plans',
+      },
+      {
+        prompt: '¿Cómo crees que será el mundo dentro de 50 años?',
+        hint: 'Use the future tense to make predictions',
+      },
+      // ... add remaining future tense prompts ...
+    ],
+  },
+  'reflexive-verbs': {
+    id: 'reflexive-verbs',
+    title: 'Reflexive Verbs',
+    prompts: [
+      {
+        prompt: '¿A qué hora te despiertas normalmente los fines de semana?',
+        hint: 'Use the reflexive verb "despertarse"',
+      },
+      {
+        prompt: '¿Cómo te preparas por la mañana antes de salir de casa?',
+        hint: 'Use reflexive verbs like "prepararse", "lavarse", "peinarse"',
+      },
+      // ... add remaining reflexive verb prompts ...
     ],
   },
 };
@@ -77,6 +270,8 @@ export default function TopicScreen() {
         await Audio.setAudioModeAsync({
           allowsRecordingIOS: true,
           playsInSilentModeIOS: true,
+          staysActiveInBackground: true,
+          shouldDuckAndroid: true,
         });
       } catch (error) {
         console.error('Failed to setup audio:', error);
@@ -85,29 +280,17 @@ export default function TopicScreen() {
 
     setupAudio();
 
-    // Get available voices when component mounts
-    const getVoices = async () => {
+    // Initialize speech
+    const initSpeech = async () => {
       try {
-        const voices = await Speech.getAvailableVoicesAsync();
-        // Find a high-quality Spanish voice
-        const bestSpanishVoice = voices.find(
-          voice => 
-            voice.language.startsWith('es') && 
-            voice.quality === Speech.VoiceQuality.Enhanced
-        ) || voices.find(
-          voice => 
-            voice.language.startsWith('es')
-        );
-
-        if (bestSpanishVoice) {
-          setSpanishVoice(bestSpanishVoice);
-        }
+        // Initialize speech without checking availability
+        await Speech.stop(); // This will initialize the speech module
       } catch (error) {
-        console.error('Failed to get voices:', error);
+        console.error('Failed to initialize speech:', error);
       }
     };
 
-    getVoices();
+    initSpeech();
 
     // Cleanup speech when component unmounts
     return () => {
@@ -116,25 +299,30 @@ export default function TopicScreen() {
   }, []);
 
   const speakPrompt = async () => {
-    if (isSpeaking) {
-      await Speech.stop();
-      setIsSpeaking(false);
-      return;
-    }
-
     try {
+      if (isSpeaking) {
+        await Speech.stop();
+        setIsSpeaking(false);
+        return;
+      }
+
       setIsSpeaking(true);
+      
       await Speech.speak(currentPrompt.prompt, {
         language: 'es-ES',
-        voice: spanishVoice?.identifier,
-        rate: 0.9,
+        rate: 0.75,
         pitch: 1.0,
         onDone: () => setIsSpeaking(false),
-        onError: () => setIsSpeaking(false),
+        onError: (error) => {
+          console.error('Speech error:', error);
+          setIsSpeaking(false);
+          Alert.alert('Error', 'Failed to speak the prompt. Please try again.');
+        },
       });
     } catch (error) {
       console.error('Failed to speak:', error);
       setIsSpeaking(false);
+      Alert.alert('Error', 'Failed to speak the prompt. Please try again.');
     }
   };
 
@@ -392,32 +580,46 @@ export default function TopicScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    padding: 16,
+    backgroundColor: '#FAFAFA',
+    padding: 20,
   },
   backButton: {
-    marginTop: 40,
+    marginTop: 48,
     marginBottom: 16,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: '#F5F5F5',
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   title: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#333',
+    fontSize: 28,
+    fontWeight: '700',
+    color: '#1A1A1A',
     marginBottom: 24,
+    letterSpacing: -0.5,
   },
   flashcard: {
-    backgroundColor: '#f0f0f0',
-    padding: 20,
-    borderRadius: 12,
+    backgroundColor: 'white',
+    padding: 24,
+    borderRadius: 16,
     marginBottom: 24,
-    elevation: 2,
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 4,
     },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
+    shadowOpacity: 0.1,
+    shadowRadius: 12,
+    elevation: 5,
+    borderWidth: 1,
+    borderColor: 'rgba(0,0,0,0.05)',
   },
   promptContainer: {
     flexDirection: 'row',
@@ -425,42 +627,60 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
   },
   promptContainerWithHint: {
-    marginBottom: 12,
+    marginBottom: 16,
   },
   prompt: {
     flex: 1,
-    fontSize: 20,
-    color: '#333',
+    fontSize: 22,
+    color: '#1A1A1A',
+    lineHeight: 32,
+    fontWeight: '500',
   },
   iconContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    gap: 12,
   },
   iconButton: {
     padding: 8,
+    backgroundColor: '#F5F5F5',
+    borderRadius: 12,
+    width: 40,
+    height: 40,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   hint: {
     fontSize: 16,
     color: '#666',
     fontStyle: 'italic',
-    marginTop: 12,
-    paddingTop: 12,
+    marginTop: 16,
+    paddingTop: 16,
     borderTopWidth: 1,
-    borderTopColor: '#ddd',
+    borderTopColor: '#F0F0F0',
+    lineHeight: 24,
   },
   inputContainer: {
     flex: 1,
+    gap: 16,
   },
   textInput: {
+    backgroundColor: 'white',
     borderWidth: 1,
-    borderColor: '#ccc',
-    borderRadius: 8,
-    padding: 12,
+    borderColor: '#E0E0E0',
+    borderRadius: 12,
+    padding: 16,
     fontSize: 16,
-    minHeight: 100,
+    minHeight: 120,
     textAlignVertical: 'top',
-    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
   },
   buttonContainer: {
     flexDirection: 'row',
@@ -472,36 +692,62 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 16,
-    borderRadius: 8,
+    borderRadius: 12,
     gap: 8,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   recordButton: {
-    backgroundColor: '#666',
+    backgroundColor: '#6B7280',
     flex: 1,
   },
   submitButton: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: '#10B981',
     flex: 1,
   },
   buttonText: {
     color: 'white',
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: '600',
+    letterSpacing: -0.3,
   },
   skipButton: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 12,
-    marginTop: 16,
+    padding: 16,
+    marginTop: 8,
     gap: 8,
+    backgroundColor: '#F5F5F5',
+    borderRadius: 12,
   },
   skipButtonText: {
     color: '#666',
     fontSize: 16,
     fontWeight: '500',
+    letterSpacing: -0.3,
   },
   disabledButton: {
-    opacity: 0.5,
+    opacity: 0.6,
   },
+  progressContainer: {
+    flexDirection: 'row',
+    gap: 4,
+    marginBottom: 16,
+  },
+  progressDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: '#E0E0E0',
+  },
+  progressDotActive: {
+    backgroundColor: '#10B981',
+  }
 }); 

@@ -1,7 +1,7 @@
 module.exports = {
   expo: {
-    name: "languageApp",
-    slug: "languageApp",
+    name: "Antonio",
+    slug: "antonio",
     // ... other config
     extra: {
       EXPO_PUBLIC_OPENAI_API_KEY: process.env.EXPO_PUBLIC_OPENAI_API_KEY,
@@ -19,7 +19,7 @@ module.exports = {
       ]
     ],
     ios: {
-      bundleIdentifier: "com.yourname.languageApp",
+      bundleIdentifier: "com.yourname.antonio",
       // ... other iOS config
       infoPlist: {
         NSMicrophoneUsageDescription: "This app needs access to the microphone to record your Spanish practice",
